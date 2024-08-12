@@ -56,3 +56,20 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Sobre o Projeto (Meu Desafio entregue)
+Neste projeto, construí uma aplicação Web API para gerenciar tarefas. A aplicação permite criar, ler, atualizar e excluir tarefas (CRUD). Utilizei o Entity Framework Core para interagir com o banco de dados e configurei a API para expor endpoints RESTful para a manipulação de tarefas.
+
+## Funcionalidades
+Criar Tarefa: Permite adicionar novas tarefas ao banco de dados.
+Obter Tarefa por ID: Recupera uma tarefa específica usando seu ID.
+Obter Todas as Tarefas: Lista todas as tarefas cadastradas.
+Obter Tarefas por Título: Filtra tarefas com base no título fornecido.
+Obter Tarefas por Data: Filtra tarefas com base na data fornecida.
+Obter Tarefas por Status: Filtra tarefas com base no status fornecido.
+Atualizar Tarefa: Atualiza uma tarefa existente usando seu ID.
+Deletar Tarefa: Remove uma tarefa específica do banco de dados.
+Estrutura do Projeto
+O projeto é uma aplicação ASP.NET Core Web API que utiliza o Entity Framework Core para a persistência dos dados. A API está configurada com Swagger para facilitar a documentação e o teste dos endpoints.
+
+
